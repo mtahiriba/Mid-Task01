@@ -4,6 +4,8 @@ import PollDispaly from './Components/PollDispaly';
 import UserParticipation from './Components/UserParticipation';
 import ThankYouMessage from './Components/ThankYouMessage';
 import AnotherUserParticipation from './Components/AnotherUserParticipation';
+import Timmer from './Components/Timmer';
+
 
 function App() {
 
@@ -34,13 +36,17 @@ function App() {
   return (
     <div className='d-flex flex-column justify-content-center align-items-center'>
       
-      <h1 className='text-center'>Polling App</h1>
+      {/* <h1 className='text-center'>Polling App</h1>
       <PollDispaly data={data}/>
       
       <br/>
       {chechVote ? <ThankYouMessage /> : <UserParticipation data={data} setData={setData} setchechVote={setchechVote}/>}
       
-      {chechVote ? <AnotherUserParticipation handleAntherParticipant={handleAntherParticipant}/> : null}
+      {chechVote ? <AnotherUserParticipation handleAntherParticipant={handleAntherParticipant}/> : null} */}
+
+
+      <Timmer />
+
 
     </div>
     );
