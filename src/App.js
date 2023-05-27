@@ -1,12 +1,13 @@
-// import logo from './logo.svg';
 import './App.css';
-
+import PollDispaly from './Components/PollDispaly';
 function App() {
 
   return (
-    <h1 className='d-flex justify-content-center align-items-center bg-primary text-white'>
-      Hello world!
-    </h1>
+    <div className='d-flex flex-column justify-content-center align-items-center'>
+      <h1 className='text-center'>Polling App</h1>
+      <PollDispaly />
+      
+    </div>
     );
 }
 
