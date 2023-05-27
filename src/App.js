@@ -1,7 +1,7 @@
 import './App.css';
 import PollDispaly from './Components/PollDispaly';
 import UserParticipation from './Components/UserParticipation';
-
+import ThankYouMessage from './Components/ThankYouMessage';
 function App() {
 
   return (
@@ -10,6 +10,8 @@ function App() {
       <h1 className='text-center'>Polling App</h1>
       <PollDispaly />
       <UserParticipation />
+      <br/>
+      <ThankYouMessage />
 
     </div>
     );
