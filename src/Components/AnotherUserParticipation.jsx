@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function AnotherUserParticipation() {
+export default function AnotherUserParticipation({handleAntherParticipant}) {
   return (
     <div>
-        <button>Reset</button>
+        <button onClick={handleAntherParticipant}>Another Participat</button>
     </div>
   )
 }
